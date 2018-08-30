@@ -13,3 +13,7 @@ Instruction:
 4. import submission file with format of test data and fillna with 0.5
 
 Proceed.
+
+For the sorting:
+1. notebooks/sort.ipynb - to sort the proceeded data.
+2. notebooks/top_n.ipynb - to get the top_n and export as JSON.
