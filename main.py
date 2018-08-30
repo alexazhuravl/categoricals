@@ -1,15 +1,15 @@
 """
+WORKAROUND NOT NECESSARY
 1. split data into train and test (60:40), export to *.csv
 2. look at kaggle approaches
 3. look at towardsmachinelearning for the multilabeled classifier
-4. n-crossvalidation?
+4. n-crossvalidation can be also applied
 5. lowercase everything
 """
 import pandas as pd
 import numpy as np
 import csv
-df = pd.read_csv('/home/az/dev/atvisor/nlp/classifier/data/cat_2018.csv')
-
+df = pd.read_csv('/data/cat_2018.csv')
 
 df.columns = df.columns.str.lower()
 df['categorical'] = pd.Categorical(df['category title (level 2)'])
