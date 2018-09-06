@@ -8,7 +8,7 @@ notebooks/classifier - classifier itself
 Instruction:
 
 1. create venv
-2. pip install -r requirements.txt
+2. `pip install -r requirements.txt`
 3. import to the path training data 
 4. import submission file with format of test data and fillna with 0.5
 
